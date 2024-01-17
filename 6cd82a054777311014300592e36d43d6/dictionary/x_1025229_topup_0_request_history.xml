@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c0fca6494777311014300592e36d4314" label="Request History" max_length="40" name="x_1025229_topup_0_request_history" type="collection">
+        <element label="Actioned By" max_length="40" name="actioned_by" type="string"/>
+        <element label="Assigned On" max_length="40" name="assigned_on" type="string"/>
+        <element label="Assigned To" max_length="40" name="assigned_to" type="string"/>
+        <element label="Comments" max_length="40" name="comments" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="History ID" max_length="40" name="number" type="string"/>
+        <element label="Request ID" max_length="32" name="request_id" reference="x_1025229_topup_0_request_details" type="reference"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="request_id"/>
+        </index>
+        <index name="index2">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
