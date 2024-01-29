@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
     <sys_script_include action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
-        <api_name>x_1025229_topup_0.employeeFunc</api_name>
+        <api_name>x_1025229_topup_0.employeeDets</api_name>
         <caller_access/>
         <client_callable>true</client_callable>
         <description/>
-        <name>employeeFunc</name>
-        <script><![CDATA[var employeeFunc = Class.create();
-employeeFunc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+        <name>employeeDets</name>
+        <script><![CDATA[var employeeDets = Class.create();
+employeeDets.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
     logged_in: function() {
         var time = new GlideTime();
         var emp = this.getParameter('sysparm_employee');
@@ -16,7 +16,6 @@ employeeFunc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         gr.addQuery('employee', emp);
         gr.addActiveQuery();
         gr.query();
-
         if (gr.next()) {
             //Object For the Sending Values
             var uObj = {};
@@ -35,7 +34,7 @@ employeeFunc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
             return '1';
         }
     },
-    setValues: function() {
+	setValues: function() {
 		var emp = this.getParameter('sysparm_employee');
         var cNum = this.getParameter('sysparm_card_number');
         var bName = this.getParameter('sysparm_bank_name');
@@ -53,19 +52,20 @@ employeeFunc.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
         }
 		return false;
     },
-    type: 'employeeFunc'
+
+    type: 'employeeDets'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-29 09:44:59</sys_created_on>
-        <sys_id>b76e2199478c0a1014300592e36d43b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>employeeFunc</sys_name>
+        <sys_created_on>2024-01-29 10:56:14</sys_created_on>
+        <sys_id>706e355d47cc0a1014300592e36d4335</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>employeeDets</sys_name>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
-        <sys_update_name>sys_script_include_b76e2199478c0a1014300592e36d43b4</sys_update_name>
+        <sys_update_name>sys_script_include_706e355d47cc0a1014300592e36d4335</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-29 09:44:59</sys_updated_on>
+        <sys_updated_on>2024-01-29 11:41:13</sys_updated_on>
     </sys_script_include>
 </record_update>

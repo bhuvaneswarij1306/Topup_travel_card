@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="bank_name" table="x_1025229_topup_0_request_details">
+        <active>true</active>
+        <array>false</array>
+        <attributes/>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Bank Name</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>bank_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1025229_topup_0_request_details</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>true</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 15:49:38</sys_created_on>
+        <sys_id>2372dd3f47b3b11014300592e36d4365</sys_id>
+        <sys_name>Bank Name</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_dictionary_x_1025229_topup_0_request_details_bank_name</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 15:50:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_dictionary_x_1025229_topup_0_request_details_bank_name</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="bank_name" table="x_1025229_topup_0_request_details"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Bank Name</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>bank_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1025229_topup_0_request_details</name><next_element/><primary>false</primary><read_only>true</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-24 15:49:38</sys_created_on><sys_id>2372dd3f47b3b11014300592e36d4365</sys_id><sys_name>Bank Name</sys_name><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_dictionary_x_1025229_topup_0_request_details_bank_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-24 15:50:07</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>1875409874</payload_hash>
+        <record_name>Request Details.Bank Name</record_name>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 15:50:08</sys_created_on>
+        <sys_id>f292917f47b3b11014300592e36d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d3c2a179e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 15:50:08</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>fa92917f69b3b11031669585c74aa249</update_guid>
+        <update_guid_history>fa92917f69b3b11031669585c74aa249:1875409874,7b72dd3f3ab3b110773989d7aef294b7:2199797,6f72dd3fbcb3b110df158828a355fcaf:365053208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 10:37:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0220a33b8aff47ff989c6641544d39c9</sys_id>
+        <sys_metadata>2372dd3f47b3b11014300592e36d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bank Name</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent display_value="Request Details">e18aaa854777311014300592e36d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1025229_topup_0_request_details_bank_name</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1025229_topup_0_request_details_bank_name">f292917f47b3b11014300592e36d434a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 10:37:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

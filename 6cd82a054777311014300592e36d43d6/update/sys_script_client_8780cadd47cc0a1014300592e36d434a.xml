@@ -8,18 +8,26 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>on load set employee details</name>
+        <name>show employee details</name>
         <order/>
         <script><![CDATA[function onLoad() {
-   //Type appropriate comment here, and begin script below
-  
+    //Type appropriate comment here, and begin script below
+    //g_form.setReadOnly('',true);
+    //     var user = '';
+    //     var testEmpl = '9fafe6ab97bbf9500ac1fef3a253af93';
+    //     g_form.setValue('employee_details', testEmpl);
+
+    //     alert(typeof(g_form));
+    //     alert('employee' + g_form.getValue('employee_details'));
+
+
     var user = g_user.userID;
     var requested = g_form.getValue('requested_by');
     var status = g_form.getValue('status');
     var isNew = g_form.isNewRecord();
 
     if (isNew) {
-        var empl = new GlideAjax('x_1025229_topup_0.employeeFunc');
+        var empl = new GlideAjax('x_1025229_topup_0.employeeDets');
         empl.addParam('sysparm_name', 'logged_in');
         empl.addParam('sysparm_employee', requested);
         empl.getXML(callback);
@@ -65,22 +73,25 @@
         g_form.setReadOnly('employee_details.card_number', true);
     }
 
+
+    
+
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2024-01-29 09:51:45</sys_created_on>
+        <sys_created_on>2024-01-29 11:09:43</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>bfffadd9478c0a1014300592e36d434a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>on load set employee details</sys_name>
+        <sys_id>8780cadd47cc0a1014300592e36d434a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>show employee details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
-        <sys_update_name>sys_script_client_bfffadd9478c0a1014300592e36d434a</sys_update_name>
+        <sys_update_name>sys_script_client_8780cadd47cc0a1014300592e36d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-29 09:51:45</sys_updated_on>
+        <sys_updated_on>2024-01-29 11:13:26</sys_updated_on>
         <table>x_1025229_topup_0_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="labelCacheCleanUpExecuted=true" db_object_id="e2a681ff4773b11014300592e36d430c" label="User Details" max_length="40" name="x_1025229_topup_0_user_details" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="bdcb83a85f220100a9ad2572f2b4773d" label="Added By" max_length="32" name="added_by" reference="sys_user" type="reference" use_dynamic_default="true"/>
         <element label="Bank Name" max_length="40" name="bank_name" type="string"/>
         <element label="Card Number" max_length="40" name="card_number" type="string"/>
         <element label="Contact" max_length="40" name="contact" type="string"/>
         <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Employee" max_length="32" name="employee" reference="sys_user" type="reference"/>
         <element label="Manager" max_length="40" name="manager" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="User Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Project" max_length="40" name="project" type="string"/>
+        <element label="Request Details" max_length="32" name="request_details" reference="x_1025229_topup_0_request_details" type="reference"/>
         <element attributes="labelCacheCleanUpExecuted=true" default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="User Name" max_length="40" name="user_name" type="string"/>
         <index name="index">
+            <element name="added_by"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+        <index name="index3">
+            <element name="request_details"/>
+        </index>
+        <index name="index4">
             <element name="sys_class_name"/>
         </index>
     </element>
