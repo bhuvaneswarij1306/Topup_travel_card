@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>My Task</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>My Task</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">d89b8828d9313110cedf7dffddb48f0d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 07:52:20</sys_created_on>
+        <sys_id>1eabda934737311014300592e36d43c3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Task</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_wizard_answer_1eabda934737311014300592e36d43c3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 07:52:20</sys_updated_on>
+        <table/>
+        <target_url>x_1025229_topup_0_my_task.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_wizard_answer_1eabda934737311014300592e36d43c3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>My Task</answer><button_label/><dependent_value/><element/><name>My Task</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">d89b8828d9313110cedf7dffddb48f0d</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-23 07:52:20</sys_created_on><sys_id>1eabda934737311014300592e36d43c3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>My Task</sys_name><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_wizard_answer_1eabda934737311014300592e36d43c3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-23 07:52:20</sys_updated_on><table/><target_url>x_1025229_topup_0_my_task.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>964653026</payload_hash>
+        <record_name>My Task</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 07:56:30</sys_created_on>
+        <sys_id>539c52174737311014300592e36d4379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d35521bd70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 07:56:30</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>139c5217eb37311090e4213c9bd98279</update_guid>
+        <update_guid_history>139c5217eb37311090e4213c9bd98279:964653026</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-23 07:56:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>048c96ef249e44428d6a846d4d26d9d1</sys_id>
+        <sys_metadata>1eabda934737311014300592e36d43c3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Task</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent display_value="Task">d89b8828d9313110cedf7dffddb48f0d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_1eabda934737311014300592e36d43c3</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_1eabda934737311014300592e36d43c3">539c52174737311014300592e36d4379</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-23 07:56:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

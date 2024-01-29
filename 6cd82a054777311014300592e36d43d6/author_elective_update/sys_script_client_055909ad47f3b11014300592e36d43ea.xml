@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set Fields readonly</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var status = g_form.getValue('status');
+   if(status == 'Submitted'){
+	g_form.setReadOnly('currency_to_be_loaded', true);
+	g_form.setReadOnly('amount_to_be_loaded', true);
+	g_form.setReadOnly('from_date', true);
+	g_form.setReadOnly('to_date', true);
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 15:42:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>055909ad47f3b11014300592e36d43ea</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Set Fields readonly</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_script_client_055909ad47f3b11014300592e36d43ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 15:50:00</sys_updated_on>
+        <table>x_1025229_topup_0_request_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_script_client_055909ad47f3b11014300592e36d43ea</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set Fields readonly&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   var status = g_form.getValue('status');
+   if(status == 'Submitted'){
+	g_form.setReadOnly('currency_to_be_loaded', true);
+	g_form.setReadOnly('amount_to_be_loaded', true);
+	g_form.setReadOnly('from_date', true);
+	g_form.setReadOnly('to_date', true);
+   }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-17 15:42:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;055909ad47f3b11014300592e36d43ea&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set Fields readonly&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Topup Travel Card" source="x_1025229_topup_0"&gt;6cd82a054777311014300592e36d43d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Topup Travel Card"&gt;6cd82a054777311014300592e36d43d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_055909ad47f3b11014300592e36d43ea&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-17 15:50:00&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_topup_0_request_details&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2078122232</payload_hash>
+        <record_name>Set Fields readonly</record_name>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 15:50:00</sys_created_on>
+        <sys_id>8d7fc5654737b11014300592e36d434e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d181d75f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 15:50:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>457fc565ba37b110c15643cc5c64c34e</update_guid>
+        <update_guid_history>457fc565ba37b110c15643cc5c64c34e:-2078122232,bf5f4565a637b11031ea66bbdf96f329:15359879,bf4fc525c937b110f29058d5f6e09748:377975354,94be4de1aa37b110d9b6848c03f8adbc:-327580040,301ec5e16c37b1103b77a2ac56034672:-526066313,ac0ec9e1f137b1106176def993437451:600775404,67bd45e1ad37b11056df8b906d6ec1f9:-1372416525</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-17 15:50:24</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4211e248ebb744f5b7a26b1ac985d0b9</sys_id>
+        <sys_metadata>055909ad47f3b11014300592e36d43ea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set Fields readonly</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent display_value="Request Details">e18aaa854777311014300592e36d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_script_client_055909ad47f3b11014300592e36d43ea</sys_update_name>
+        <sys_update_version display_value="sys_script_client_055909ad47f3b11014300592e36d43ea">8d7fc5654737b11014300592e36d434e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-17 15:50:24</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
