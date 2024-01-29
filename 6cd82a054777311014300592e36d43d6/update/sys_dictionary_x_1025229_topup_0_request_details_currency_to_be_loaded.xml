@@ -5,7 +5,7 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Currency To Be Loaded</column_label>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name>sys_dictionary_x_1025229_topup_0_request_details_currency_to_be_loaded</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-16 13:20:33</sys_updated_on>
+        <sys_updated_on>2024-01-17 15:37:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

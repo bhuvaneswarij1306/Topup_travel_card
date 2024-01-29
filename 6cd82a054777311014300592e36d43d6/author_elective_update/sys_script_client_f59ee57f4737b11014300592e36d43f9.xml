@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate user details</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var myUserName = g_user.userName;
+    //alert('Current user = ' + userName);
+    var userQuery = new GlideRecord('x_1025229_topup_0_user_details');
+    userQuery.addQuery('user_name', myUserName);
+    userQuery.query();
+    if (userQuery.next()) {
+        g_form.setValue('user_name', userQuery.getValue('user_name'));
+        g_form.setValue('name', userQuery.getValue('name'));
+        g_form.setValue('manager', userQuery.getValue('manager'));
+    } else {
+        alert('User details not found for ' + myUserName);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 17:57:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f59ee57f4737b11014300592e36d43f9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Populate user details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_script_client_f59ee57f4737b11014300592e36d43f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 18:52:36</sys_updated_on>
+        <table>x_1025229_topup_0_request_details</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_script_client_f59ee57f4737b11014300592e36d43f9</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate user details&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var myUserName = g_user.userName;
+    //alert('Current user = ' + userName);
+    var userQuery = new GlideRecord('x_1025229_topup_0_user_details');
+    userQuery.addQuery('user_name', myUserName);
+    userQuery.query();
+    if (userQuery.next()) {
+        g_form.setValue('user_name', userQuery.getValue('user_name'));
+        g_form.setValue('name', userQuery.getValue('name'));
+        g_form.setValue('manager', userQuery.getValue('manager'));
+    } else {
+        alert('User details not found for ' + myUserName);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-01-24 17:57:31&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f59ee57f4737b11014300592e36d43f9&lt;/sys_id&gt;&lt;sys_mod_count&gt;16&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate user details&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Topup Travel Card" source="x_1025229_topup_0"&gt;6cd82a054777311014300592e36d43d6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Topup Travel Card"&gt;6cd82a054777311014300592e36d43d6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f59ee57f4737b11014300592e36d43f9&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-01-24 18:52:36&lt;/sys_updated_on&gt;&lt;table&gt;x_1025229_topup_0_request_details&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1397337090</payload_hash>
+        <record_name>Populate user details</record_name>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-24 18:52:36</sys_created_on>
+        <sys_id>cc6cf13f4777b11014300592e36d438c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d3cd128230000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-24 18:52:36</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>846cf13fca77b110c95b0f1fcdeb038c</update_guid>
+        <update_guid_history>846cf13fca77b110c95b0f1fcdeb038c:-1397337090,445cbd3f2277b1102041aa59b6accd24:2143386985,8e9b39bbac77b110f3ba21983ae07f31:-62241463,1b0ab57bfa77b110d2b2b2f9713e6c01:356826485,36197537c277b110aec13802a1ea8fca:-1663748024,980931b3f777b110207aba134bd363dd:-1396945774,dfd8f93b0377b1104c1b7b021b5786f8:-1517019058,d988b93b4977b110a28e8c7e6023fe67:-465354425,b603bd33fd77b1101c59dddfc4674ea2:1936045806,028231b39c77b110ab722566d1fd343f:1881003537,63a1bd3fb037b1107d663ab9380f1db5:1962326475,ea91fdbfcc37b11018d63da63e8acae3:-1905415000,5681bd339277b110806fb6f35683ea08:-165279164,d751bd3f2b37b110ecfd29fbadb970b0:-1199992586,b94131ff7f37b110e72444388caf4ef2:1364192326,67dfedbf6b37b1103b0f3fc02d305685:-225928346,05cf6dbf4037b11027cff62e58677f4a:-1509391375</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-29 09:21:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0282079768ae43b48007c9c813e90fc4</sys_id>
+        <sys_metadata>f59ee57f4737b11014300592e36d43f9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate user details</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent display_value="Request Details">e18aaa854777311014300592e36d4333</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_script_client_f59ee57f4737b11014300592e36d43f9</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f59ee57f4737b11014300592e36d43f9">cc6cf13f4777b11014300592e36d438c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-29 09:21:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
