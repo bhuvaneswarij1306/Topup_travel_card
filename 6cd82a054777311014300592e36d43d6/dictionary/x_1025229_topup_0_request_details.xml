@@ -30,6 +30,7 @@
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="To Date" mandatory="true" max_length="40" name="to_date" type="glide_date"/>
         <element label="User Details" max_length="32" name="user_details" reference="x_1025229_topup_0_user_details" type="reference"/>
+        <element label="Visa Copy" mandatory="true" max_length="255" name="visa_copy" type="file_attachment"/>
         <index name="index">
             <element name="request_owner"/>
         </index>

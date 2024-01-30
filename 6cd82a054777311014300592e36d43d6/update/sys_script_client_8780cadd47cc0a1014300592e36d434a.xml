@@ -21,9 +21,9 @@
     //     alert('employee' + g_form.getValue('employee_details'));
 
 
-    var user = g_user.userID;
-    var requested = g_form.getValue('requested_by');
-    var status = g_form.getValue('status');
+   // var user = g_user.userID;
+    var requested = g_form.getValue('request_owner');
+  //  var status = g_form.getValue('status');
     var isNew = g_form.isNewRecord();
 
     if (isNew) {
@@ -31,50 +31,35 @@
         empl.addParam('sysparm_name', 'logged_in');
         empl.addParam('sysparm_employee', requested);
         empl.getXML(callback);
-        alert('inside condition');
+        //alert('inside condition');
     }
 
     function callback(response) {
         var answer1 = response.responseXML.documentElement.getAttribute("answer");
         if (answer1 != '1') {
             var json = JSON.parse(answer1);
-            if (json.card_number != '') {
-                alert('json');
-                g_form.setValue('employee_details.card_number', json.card_number);
-                g_form.setValue('employee_details.bank_name', json.bank_name);
-                //                 g_form.setReadOnly('employee_details.card_number', true);
-                //                 g_form.setReadOnly('employee_details.bank_name', true);
-            }
-            alert('callback | ' + json.name+ ' | ' + json.contact);
-            g_form.setValue('employee_details.name', json.name);
-            g_form.setValue('employee_details.contact', json.contact);
-            g_form.setValue('employee_details.project', json.project);
-            g_form.setValue('employee_details.email', json.email);
-            g_form.setValue('employee_details.manager', json.manager);
+
+            //alert('callback | ' + json.name+ ' | ' + json.contact);
+            g_form.setValue('user_details.name', json.name);
+            g_form.setValue('user_details.card_number', json.card_number);
+            g_form.setValue('user_details.bank_name', json.bank_name);
+            g_form.setValue('user_details.user_name', json.user_name);
+            g_form.setValue('user_details.contact', json.contact);
+            g_form.setValue('user_details.project', json.project);
+            g_form.setValue('user_details.email', json.email);
+            g_form.setValue('user_details.manager', json.manager);
         } else {
             alert('User Not Found in Employee');
         }
     }
-
-
-    g_form.setReadOnly('employee_details.email', true);
-    g_form.setReadOnly('employee_details.contact', true);
-    g_form.setReadOnly('employee_details.manager', true);
-    g_form.setReadOnly('employee_details.project', true);
-    g_form.setReadOnly('employee_details.name', true);
-
-
-
-    if (isNew && cNumber == '') {
-        g_form.setReadOnly('employee_details.bank_name', false);
-        g_form.setReadOnly('employee_details.card_number', false);
-    } else {
-        g_form.setReadOnly('employee_details.bank_name', true);
-        g_form.setReadOnly('employee_details.card_number', true);
-    }
-
-
-    
+    g_form.setReadOnly('user_details.email', true);
+    g_form.setReadOnly('user_details.contact', true);
+    g_form.setReadOnly('user_details.manager', true);
+    g_form.setReadOnly('user_details.project', true);
+    g_form.setReadOnly('user_details.name', true);
+    g_form.setReadOnly('user_details.bank_name', true);
+    g_form.setReadOnly('user_details.card_number', true);
+    g_form.setReadOnly('user_details.user_name', true);
 
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
@@ -83,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8780cadd47cc0a1014300592e36d434a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>show employee details</sys_name>
         <sys_overrides/>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
@@ -91,7 +76,7 @@
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name>sys_script_client_8780cadd47cc0a1014300592e36d434a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-29 11:13:26</sys_updated_on>
+        <sys_updated_on>2024-01-30 11:07:58</sys_updated_on>
         <table>x_1025229_topup_0_request_details</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

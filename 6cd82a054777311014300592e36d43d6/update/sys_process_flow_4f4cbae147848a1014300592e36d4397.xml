@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1025229_topup_0_request_details">status=Approved by HR^EQ<item display_value="Approved by HR" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Approved by HR"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label> Approved by HR</label>
+        <name> Approved by HR</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 10:02:22</sys_created_on>
+        <sys_id>4f4cbae147848a1014300592e36d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> Approved by HR</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_process_flow_4f4cbae147848a1014300592e36d4397</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 10:02:22</sys_updated_on>
+        <table>x_1025229_topup_0_request_details</table>
+    </sys_process_flow>
+</record_update>

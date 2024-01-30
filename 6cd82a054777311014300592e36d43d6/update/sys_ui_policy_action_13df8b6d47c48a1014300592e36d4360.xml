@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>visa_copy</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 11:26:45</sys_created_on>
+        <sys_id>13df8b6d47c48a1014300592e36d4360</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>visa_copy</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_ui_policy_action_13df8b6d47c48a1014300592e36d4360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 11:26:45</sys_updated_on>
+        <table>x_1025229_topup_0_request_details</table>
+        <ui_policy display_value="Readonly condition for request details">c371d9e54737b11014300592e36d43c2</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1025229_topup_0_request_details</collection>
+        <condition table="x_1025229_topup_0_request_details">status=Submitted^EQ<item display_value="Submitted" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="Submitted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%; height: 239.902px;" border="0">
+<tbody>
+<tr style="border-bottom: 1px solid #dadde2; height: 35.9961px;">
+<td style="width: 100%; padding-bottom: 16px; height: 35.9961px;" align="center"><span style="font-size: 24px; font-style: normal; font-weight: 400; line-height: 36px; letter-spacing: 0em; text-align: center;">${request_owner.name} submitted a request</span></td>
+</tr>
+<tr style="height: 23.9844px;">
+<td style="height: 23.9844px;" height="24">&nbsp;</td>
+</tr>
+<tr style="height: 23.9844px;">
+<td style="width: 100%; font-size: 16px; line-height: 24px; height: 23.9844px;">Hi,</td>
+</tr>
+<tr style="height: 55.9766px;">
+<td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 18px; height: 55.9766px;">
+<p><span style="font-weight: 600;">${request_owner.name}</span> submitted a request, <span style="font-weight: 600;">${number}</span>.</p>
+</td>
+</tr>
+<tr style="height: 47.9688px;">
+<td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 18px; height: 47.9688px;">You can review the request and assign it to a member of your team for further action and response.</td>
+</tr>
+<tr style="height: 51.9922px;">
+<td style="width: 100%; height: 51.9922px; padding-top: 18px;"><span id="requestapprove" class="btn inverse" style="border-radius: 4px; border: 1px solid #4f52bd; padding: 8px 20px; background-color: #4f52bd; color: #ffffff;">${mail_script:view_request}</span></td>
+</tr>
+</tbody>
+</table>
+<div style="font-size: 20px; font-weight: 600; line-height: 30px; text-align: left; margin-top: 24px; margin-bottom: 9px;"><span style="font-size: 12pt; background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">Thank you,</span></div>
+<div style="line-height: 4px; margin-top: 24px; margin-bottom: 9px; font-size: 12pt;">
+<p>ITR Operations Team</p>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Request Submitted</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>request_owner,request_owner.manager</recipient_fields>
+        <recipient_groups>da60d69147404a1014300592e36d4359,5c909a5147404a1014300592e36d436b</recipient_groups>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${number} | Top-Up Request | ${status}</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-30 12:55:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7eedfed47088a1014300592e36d4311</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request Submitted</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sysevent_email_action_e7eedfed47088a1014300592e36d4311</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-30 13:06:28</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
