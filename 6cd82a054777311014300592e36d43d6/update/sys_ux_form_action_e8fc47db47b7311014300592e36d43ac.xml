@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-23 11:27:40</sys_updated_on>
         <table>x_1025229_topup_0_my_task</table>
-        <ui_action display_value="Sendback by HR">33d14f1347b7311014300592e36d43f8</ui_action>
+        <ui_action/>
     </sys_ux_form_action>
     <sys_translated_text action="delete_multiple" query="documentkey=e8fc47db47b7311014300592e36d43ac"/>
 </record_update>

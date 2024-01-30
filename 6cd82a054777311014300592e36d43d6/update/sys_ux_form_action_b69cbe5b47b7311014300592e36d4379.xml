@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-23 10:16:17</sys_updated_on>
         <table>global</table>
-        <ui_action display_value="Rejected By TDM">a3747edf4777311014300592e36d43d5</ui_action>
+        <ui_action/>
     </sys_ux_form_action>
     <sys_translated_text action="delete_multiple" query="documentkey=b69cbe5b47b7311014300592e36d4379"/>
 </record_update>
