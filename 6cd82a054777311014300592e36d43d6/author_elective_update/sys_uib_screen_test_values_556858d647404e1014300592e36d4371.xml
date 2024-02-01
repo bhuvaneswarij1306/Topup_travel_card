@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "task",
+        "inputSysId": "ab6850e0d9b53110cedf7dffddb48f72",
+        "inputQuery": "",
+        "view": "workspace-topup-travel-card-0",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "screen": "",
+        "fields": "",
+        "userPrefs": "",
+        "selectedTabIndex": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config>
+        <screen display_value="Home default copy">156858d647404e1014300592e36d436d</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 06:00:36</sys_created_on>
+        <sys_id>556858d647404e1014300592e36d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_556858d647404e1014300592e36d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 06:00:36</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_uib_screen_test_values_556858d647404e1014300592e36d4371</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+    "029f04e053610110ac9bddeeff7b1294": {
+        "inputTable": "task",
+        "inputSysId": "ab6850e0d9b53110cedf7dffddb48f72",
+        "inputQuery": "",
+        "view": "workspace-topup-travel-card-0",
+        "forcedViewName": "",
+        "detailsContext": "",
+        "activityLogs": "",
+        "inputExtraParams": "",
+        "screen": "",
+        "fields": "",
+        "userPrefs": "",
+        "selectedTabIndex": "",
+        "shouldDisplayFormErrorsAsPageAlerts": false
+    }
+}</macroponent_config><screen display_value="Home default copy">156858d647404e1014300592e36d436d</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-02-01 06:00:36</sys_created_on><sys_id>556858d647404e1014300592e36d4371</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_uib_screen_test_values_556858d647404e1014300592e36d4371</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-02-01 06:00:36</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>178605084</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 06:00:36</sys_created_on>
+        <sys_id>5d6858d647404e1014300592e36d437f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d63413c600000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 06:00:36</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>916858d6bd404e106a05d022d0a42a7f</update_guid>
+        <update_guid_history>916858d6bd404e106a05d022d0a42a7f:178605084</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-02-01 07:12:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>12520939a61d429885117098836ad640</sys_id>
+        <sys_metadata>556858d647404e1014300592e36d4371</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_556858d647404e1014300592e36d4371</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_556858d647404e1014300592e36d4371">5d6858d647404e1014300592e36d437f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-02-01 07:12:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
