@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1025229_topup_0_request_details" version="2" view="workspace-topup-travel-card-0">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Request Details - Workspace Topup Travel Card 0" name="x_1025229_topup_0_request_details" related_list="NULL" sys_domain="global" view="855e4bb5e948ca1030c79f483ac3ef7c">ba5ecbb54748ca1014300592e36d4372</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1025229_topup_0_visa_attachment_details.request_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 05:58:39</sys_created_on>
+            <sys_id>fa5ecbb54748ca1014300592e36d4373</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 05:58:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Request Details - Workspace Topup Travel Card 0" name="x_1025229_topup_0_request_details" related_list="NULL" sys_domain="global" view="855e4bb5e948ca1030c79f483ac3ef7c">ba5ecbb54748ca1014300592e36d4372</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1025229_topup_0_request_history.request_id</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 05:58:39</sys_created_on>
+            <sys_id>f25ecbb54748ca1014300592e36d4374</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 05:58:39</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Request Details - Workspace Topup Travel Card 0</calculated_name>
+            <filter/>
+            <name>x_1025229_topup_0_request_details</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-01-31 05:58:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ba5ecbb54748ca1014300592e36d4372</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Details - Workspace Topup Travel Card 0</sys_name>
+            <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+            <sys_update_name>sys_ui_related_x_1025229_topup_0_request_details_workspace-topup-travel-card-0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-01-31 05:58:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace Topup Travel Card 0" name="workspace-topup-travel-card-0">855e4bb5e948ca1030c79f483ac3ef7c</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

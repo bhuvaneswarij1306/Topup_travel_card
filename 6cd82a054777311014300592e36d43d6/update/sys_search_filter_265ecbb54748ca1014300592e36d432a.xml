@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_filter">
+    <sys_search_filter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_search_source display_value="Request Details">a25ecbb54748ca1014300592e36d431c</ais_search_source>
+        <label>Request Details</label>
+        <name>Request Details</name>
+        <order>100</order>
+        <search_context_config display_value="Topup Travel Card AI Search Configuration">0d5e4bb50a48ca104fdf98019475007c</search_context_config>
+        <sys_class_name>sys_search_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 05:58:37</sys_created_on>
+        <sys_id>265ecbb54748ca1014300592e36d432a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Details</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_search_filter_265ecbb54748ca1014300592e36d432a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 05:58:37</sys_updated_on>
+    </sys_search_filter>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>globalSearchDataConfigId</name>
+        <page display_value="">815e4bb52148ca101e73c1b244924586</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 05:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c55e4bb5ab48ca102354c20aa3aaa575</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_ux_page_property_c55e4bb5ab48ca102354c20aa3aaa575</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 05:58:33</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_1025229_topup_0.815e4bb52148ca101e73c1b244924586.root.globalSearchDataConfigId</unique_name>
+        <value>815e4bb5da48ca1099099af05aa6b47d</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_ux_page_property_c55e4bb5ab48ca102354c20aa3aaa575</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>globalSearchDataConfigId</name><page display_value="">815e4bb52148ca101e73c1b244924586</page><required_translations>[]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 05:58:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>c55e4bb5ab48ca102354c20aa3aaa575</sys_id><sys_mod_count>0</sys_mod_count><sys_name>globalSearchDataConfigId</sys_name><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_ux_page_property_c55e4bb5ab48ca102354c20aa3aaa575</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 05:58:33</sys_updated_on><type>string</type><unique_name>x_1025229_topup_0.815e4bb52148ca101e73c1b244924586.root.globalSearchDataConfigId</unique_name><value>815e4bb5da48ca1099099af05aa6b47d</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>1274950002</payload_hash>
+        <record_name>globalSearchDataConfigId</record_name>
+        <reverted_from/>
+        <source/>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 09:45:05</sys_created_on>
+        <sys_id>b3224c06474cca1014300592e36d43c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5ee866bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 09:45:05</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>73224c06894cca10edd1ef318caba7c0</update_guid>
+        <update_guid_history>73224c06894cca10edd1ef318caba7c0:1274950002</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 09:45:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>1680f13eaeee4b8082413f0ab1853fc9</sys_id>
+        <sys_metadata>c55e4bb5ab48ca102354c20aa3aaa575</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>globalSearchDataConfigId</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_c55e4bb5ab48ca102354c20aa3aaa575</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_c55e4bb5ab48ca102354c20aa3aaa575">b3224c06474cca1014300592e36d43c0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 09:45:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_search_source_m2m">
+    <ais_search_profile_ais_search_source_m2m action="INSERT_OR_UPDATE">
+        <profile display_value="topup-travel-card Search Profile">455e4bb52e48ca10edb430e576ced586</profile>
+        <search_source display_value="Approval">6768100a47ccca1014300592e36d4349</search_source>
+        <sys_class_name>ais_search_profile_ais_search_source_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 11:22:16</sys_created_on>
+        <sys_id>eb68100a47ccca1014300592e36d434c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>topup-travel-card Search Profile.Approval</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>ais_search_profile_ais_search_source_m2m_eb68100a47ccca1014300592e36d434c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:22:16</sys_updated_on>
+    </ais_search_profile_ais_search_source_m2m>
+</record_update>

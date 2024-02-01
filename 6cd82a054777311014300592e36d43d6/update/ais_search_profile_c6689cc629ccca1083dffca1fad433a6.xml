@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile">
+    <ais_search_profile action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>This is default AI Search profile for Topup Travel Card</description>
+        <exclude_from_evaluation>false</exclude_from_evaluation>
+        <genius_result_assembly/>
+        <label>topup-travel-card Search Profile</label>
+        <name>x_1025229_topup_0_tkbhnwwt_search_profile</name>
+        <publish_id>4b4c2134-9876-4894-b059-58d398587ca4</publish_id>
+        <qna_model_id/>
+        <state>PUBLISHED</state>
+        <sys_class_name>ais_search_profile</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 11:22:11</sys_created_on>
+        <sys_id>c6689cc629ccca1083dffca1fad433a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>topup-travel-card Search Profile</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>ais_search_profile_c6689cc629ccca1083dffca1fad433a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 11:22:11</sys_updated_on>
+    </ais_search_profile>
+</record_update>

@@ -11,9 +11,9 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description/>
         <internal_name>testing_flow</internal_name>
-        <label_cache>[{"name":"c7926deb-5fa6-4c7c-a42f-4248b33204e2.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"labelCacheCleanUpExecuted":"true"}},{"name":"Created or Updated_1.current.request_owner.manager","label":"Trigger - Record Created or Updated➛Request Details Record➛Request Owner➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"c7926deb-5fa6-4c7c-a42f-4248b33204e2.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7902664d-e404-4320-85e9-5d771bd72ca1.record","label":"3 - Update Record➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.da60d69147404a1014300592e36d4359}}","label":"HR Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"668804f1-8380-47d4-a130-7a864fc616ee.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"668804f1-8380-47d4-a130-7a864fc616ee.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"25b915c4-911e-4b31-b6be-6cafa6871666.record","label":"6 - Update Record➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5c909a5147404a1014300592e36d436b}}","label":"Finance Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"5c582fa5-cfdc-4457-b146-db7b59a11183.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <label_cache>[{"name":"5c582fa5-cfdc-4457-b146-db7b59a11183.approval_state","label":"7 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.5c909a5147404a1014300592e36d436b}}","label":"Finance Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"25b915c4-911e-4b31-b6be-6cafa6871666.record","label":"6 - Update Record➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"668804f1-8380-47d4-a130-7a864fc616ee.__action_status__","label":"4 - Ask For Approval➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"668804f1-8380-47d4-a130-7a864fc616ee.approval_state","label":"4 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.da60d69147404a1014300592e36d4359}}","label":"HR Team","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference"},{"name":"7902664d-e404-4320-85e9-5d771bd72ca1.record","label":"3 - Update Record➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"c7926deb-5fa6-4c7c-a42f-4248b33204e2.__dont_treat_as_error__","label":"1 - Ask For Approval➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created or Updated_1.current.request_owner.manager","label":"Trigger - Record Created or Updated➛Request Details Record➛Request Owner➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user","column_name":"manager"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{"labelCacheCleanUpExecuted":"true"}},{"name":"{{static.62826bf03710200044e0bfc8bcbe5df1}}","label":"Abel Tuter","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"c7926deb-5fa6-4c7c-a42f-4248b33204e2.approval_state","label":"1 - Ask For Approval➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","choices":[{"label":"-- None --","value":"","order":0.0},{"label":"Not Yet Requested","value":"not requested","order":1.0},{"label":"Requested","value":"requested","order":2.0},{"label":"Approved","value":"approved","order":3.0},{"label":"Rejected","value":"rejected","order":4.0},{"label":"Cancelled","value":"cancelled","order":5.0},{"label":"No Longer Required","value":"not_required","order":6.0},{"label":"Skipped","value":"skipped","order":7.0}],"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
         <master_snapshot>ccddd6ad47c08a1014300592e36d4395</master_snapshot>
-        <name>Approval Flow</name>
+        <name>Main Approval Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
@@ -23,22 +23,22 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-30 04:42:34</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7253b12d47008a1014300592e36d4303</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>Approval Flow</sys_name>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Main Approval Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
         <sys_policy/>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name>sys_hub_flow_7253b12d47008a1014300592e36d4303</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 09:41:13</sys_updated_on>
+        <sys_updated_on>2024-01-31 05:18:25</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=7253b12d47008a1014300592e36d4303"/>
@@ -87,7 +87,7 @@
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <name>Created or Updated</name>
         <remote_sys_id/>
         <sys_created_by>admin</sys_created_by>
@@ -201,7 +201,7 @@
         <label>Record</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="Approval Flow">7253b12d47008a1014300592e36d4303</model>
+        <model display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</model>
         <model_id>7253b12d47008a1014300592e36d4303</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_7253b12d47008a1014300592e36d4303</name>
@@ -285,7 +285,7 @@
         <label>Changed Fields</label>
         <mandatory>false</mandatory>
         <max_length>4000</max_length>
-        <model display_value="Approval Flow">7253b12d47008a1014300592e36d4303</model>
+        <model display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</model>
         <model_id>7253b12d47008a1014300592e36d4303</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_7253b12d47008a1014300592e36d4303</name>
@@ -369,7 +369,7 @@
         <label>Table Name</label>
         <mandatory>false</mandatory>
         <max_length>200</max_length>
-        <model display_value="Approval Flow">7253b12d47008a1014300592e36d4303</model>
+        <model display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</model>
         <model_id>7253b12d47008a1014300592e36d4303</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_7253b12d47008a1014300592e36d4303</name>
@@ -424,7 +424,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>13</order>
         <parent_ui_id>9ce754ac-11b8-45d5-b2df-ee2a66d06be4</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -513,7 +513,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>3</order>
         <parent_ui_id>e8fb6aa3-0cbd-4364-8835-5f996d967b03</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -602,7 +602,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>4</order>
         <parent_ui_id>e8fb6aa3-0cbd-4364-8835-5f996d967b03</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -703,7 +703,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>6</order>
         <parent_ui_id>ea3a4aa0-adf9-4102-bfaf-0e2ce9361594</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -792,7 +792,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>11</order>
         <parent_ui_id>a0492482-cdcf-48ce-9be6-7937a587414e</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -881,7 +881,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>19</order>
         <parent_ui_id>58c5f0dc-2b5c-44b8-9820-d63a96518f4c</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -970,7 +970,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>7</order>
         <parent_ui_id>ea3a4aa0-adf9-4102-bfaf-0e2ce9361594</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1071,7 +1071,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>9</order>
         <parent_ui_id>e9ba2cb3-b1c1-418d-9cf3-9753c0daff67</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1160,7 +1160,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>1</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1261,7 +1261,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>17</order>
         <parent_ui_id>595bf559-e79d-4933-8edb-938e6f3d05f0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1350,7 +1350,7 @@
         <attributes/>
         <comment/>
         <display_text/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <order>15</order>
         <parent_ui_id>2d50fec4-8487-43a1-a6f6-1e8f72cc7f75</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
@@ -1442,7 +1442,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1515,7 +1515,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1588,7 +1588,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1661,7 +1661,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1734,7 +1734,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1807,7 +1807,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1880,7 +1880,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -1953,7 +1953,7 @@
         <decision_table_inputs/>
         <display_text/>
         <extended_inputs/>
-        <flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</flow>
+        <flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</flow>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
@@ -2109,7 +2109,7 @@
         <name>Approval Flow</name>
         <natlang/>
         <outputs/>
-        <parent_flow display_value="Approval Flow">7253b12d47008a1014300592e36d4303</parent_flow>
+        <parent_flow display_value="Main Approval Flow">7253b12d47008a1014300592e36d4303</parent_flow>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>

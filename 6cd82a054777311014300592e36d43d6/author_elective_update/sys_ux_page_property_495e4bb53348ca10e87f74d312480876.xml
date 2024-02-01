@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description>Tabs Configuration</description>
+        <name>chrome_tab</name>
+        <page display_value="Topup Travel Card">815e4bb52148ca101e73c1b244924586</page>
+        <required_translations>[ {
+  "message" : "New Request Details",
+  "comment" : ""
+} ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 05:58:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>495e4bb53348ca10e87f74d312480876</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_ux_page_property_495e4bb53348ca10e87f74d312480876</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 05:58:37</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1025229_topup_0.815e4bb52148ca101e73c1b244924586.root.chrome_tab</unique_name>
+        <value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Request Details"},"routeInfo":{"route":"record","fields":{"table":"x_1025229_topup_0_request_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1025229_topup_0_request_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="DELETE" query="documentkey=495e4bb53348ca10e87f74d312480876"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_ux_page_property_495e4bb53348ca10e87f74d312480876</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Tabs Configuration</description><name>chrome_tab</name><page display_value="Topup Travel Card">815e4bb52148ca101e73c1b244924586</page><required_translations>[ {
+  "message" : "New Request Details",
+  "comment" : ""
+} ]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 05:58:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>495e4bb53348ca10e87f74d312480876</sys_id><sys_mod_count>1</sys_mod_count><sys_name>chrome_tab</sys_name><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_ux_page_property_495e4bb53348ca10e87f74d312480876</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 05:58:37</sys_updated_on><type>json</type><unique_name>x_1025229_topup_0.815e4bb52148ca101e73c1b244924586.root.chrome_tab</unique_name><value>{"contextual":["record"],"newTabMenu":[{"label":{"translatable":true,"message":"New Request Details"},"routeInfo":{"route":"record","fields":{"table":"x_1025229_topup_0_request_details","sysId":"-1"},"multiInstField":"sysId"},"condition":{"tableDescription":{"table":"x_1025229_topup_0_request_details","canCreate":true}}}],"maxMainTabLimit":10,"maxTotalSubTabLimit":30}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=495e4bb53348ca10e87f74d312480876"/></record_update>]]></payload>
+        <payload_hash>878225093</payload_hash>
+        <record_name>chrome_tab</record_name>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 05:58:37</sys_created_on>
+        <sys_id>665ecbb54748ca1014300592e36d4317</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5e19110e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 05:58:37</sys_updated_on>
+        <type>UX Page Property</type>
+        <update_guid>6e5ecbb53d48ca100406b41b6b77c816</update_guid>
+        <update_guid_history>6e5ecbb53d48ca100406b41b6b77c816:878225093,2a5ecbb5e948ca100b478dcce6145115:-285528899</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 09:45:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>02e68de8b90240e1805e2461b433af99</sys_id>
+        <sys_metadata>495e4bb53348ca10e87f74d312480876</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_tab</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_495e4bb53348ca10e87f74d312480876</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_495e4bb53348ca10e87f74d312480876">665ecbb54748ca1014300592e36d4317</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 09:45:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

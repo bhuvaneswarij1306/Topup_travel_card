@@ -38,34 +38,135 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<table style="border-collapse: collapse; width: 100%; height: 239.902px;" border="0">
+        <message_html><![CDATA[<p>&nbsp;</p>
+<p>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
+<style media="all" type="text/css">
+@media all {
+  .btn-primary table td:hover {
+    background-color: #ec0867 !important;
+  }
+
+  .btn-primary a:hover {
+    background-color: #ec0867 !important;
+    border-color: #ec0867 !important;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .main p,
+.main td,
+.main span {
+    font-size: 16px !important;
+  }
+
+  .wrapper {
+    padding: 8px !important;
+  }
+
+  .content {
+    padding: 0 !important;
+  }
+
+  .container {
+    padding: 0 !important;
+    padding-top: 8px !important;
+    width: 100% !important;
+  }
+
+  .main {
+    border-left-width: 0 !important;
+    border-radius: 0 !important;
+    border-right-width: 0 !important;
+  }
+
+  .btn table {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .btn a {
+    font-size: 16px !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
+@media all {
+  .ExternalClass {
+    width: 100%;
+  }
+
+  .ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td,
+.ExternalClass div {
+    line-height: 100%;
+  }
+
+  .apple-link a {
+    color: inherit !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    text-decoration: none !important;
+  }
+
+  #MessageViewBody a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+  }
+}
+</style>
+<p>&nbsp;&nbsp;&nbsp; &nbsp;</p>
+<table class="body" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #f4f5f6; width: 100%;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0" bgcolor="#f4f5f6">
 <tbody>
-<tr style="border-bottom: 1px solid #dadde2; height: 35.9961px;">
-<td style="width: 100%; padding-bottom: 16px; height: 35.9961px;" align="center"><span style="font-size: 24px; font-style: normal; font-weight: 400; line-height: 36px; letter-spacing: 0em; text-align: center;">${request_owner.name} submitted a request</span></td>
-</tr>
-<tr style="height: 23.9844px;">
-<td style="height: 23.9844px;" height="24">&nbsp;</td>
-</tr>
-<tr style="height: 23.9844px;">
-<td style="width: 100%; font-size: 16px; line-height: 24px; height: 23.9844px;">Hi,</td>
-</tr>
-<tr style="height: 55.9766px;">
-<td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 18px; height: 55.9766px;">
-<p><span style="font-weight: 600;">${request_owner.name}</span> submitted a request, <span style="font-weight: 600;">${number}</span>.</p>
-</td>
-</tr>
-<tr style="height: 47.9688px;">
-<td style="width: 100%; font-size: 16px; line-height: 24px; padding-top: 18px; height: 47.9688px;">You can review the request and assign it to a member of your team for further action and response.</td>
-</tr>
-<tr style="height: 51.9922px;">
-<td style="width: 100%; height: 51.9922px; padding-top: 18px;"><span id="requestapprove" class="btn inverse" style="border-radius: 4px; border: 1px solid #4f52bd; padding: 8px 20px; background-color: #4f52bd; color: #ffffff;">${mail_script:view_request}</span></td>
+<tr>
+<td style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; width: 11.3109%;" valign="top">&nbsp;</td>
+<td class="container" style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; max-width: 600px; padding: 24px 0px 0px; width: 77.5056%; margin: 0px auto;" valign="top" width="600">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<img src="https://pngimg.com/d/email_PNG12.png" alt="" width="120" height="120" data-library="false" />
+<div class="content" style="box-sizing: border-box; display: block; margin: 0 auto; max-width: 600px; padding: 0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <!-- START CENTERED WHITE CONTAINER --> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; opacity: 0; overflow: hidden; mso-hide: all; visibility: hidden; width: 0;">This is preheader text. Some clients will show this text as a preview.</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<table class="main" style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; background: #ffffff; border: 1px solid #eaebed; border-radius: 16px; width: 100%;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0"><!-- START MAIN CONTENT AREA -->
+<tbody>
+<tr>
+<td class="wrapper" style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; box-sizing: border-box; padding: 24px;" valign="top">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<p style="font-family: Helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 16px;">Hi there</p>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<p style="font-family: Helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 16px;">A New Request has been submitted by ${request_owner.name}.<br />Request ID: ${number}</p>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<table class="btn btn-primary" style="border-collapse: separate; mso-table-lspace: 0pt; so-table-rspace: 0pt; box-sizing: border-box; width: 100%; min-width: 100%;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; padding-bottom: 16px;" align="left" valign="top">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<table style="border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: auto;" role="presentation" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; border-radius: 4px; text-align: center; background-color: #0867ec;" align="center" valign="top" bgcolor="#0867ec"><a style="border: solid 2px #0867ec; border-radius: 4px; box-sizing: border-box; cursor: pointer; display: inline-block; font-size: 16px; font-weight: bold; margin: 0; padding: 12px 24px; text-decoration: none; text-transform: capitalize; background-color: #0867ec; border-color: #0867ec; color: #ffffff;" href="#" target="_blank" rel="noopener">Go to Workspace</a></td>
 </tr>
 </tbody>
 </table>
-<div style="font-size: 20px; font-weight: 600; line-height: 30px; text-align: left; margin-top: 24px; margin-bottom: 9px;"><span style="font-size: 12pt; background-color: rgb(var(--sn-tinymce_content-background,var(--now-form-field--background-color,var(--now-color_background--primary,var(--now-color--neutral-0,255,255,255))))); color: rgb(var(--sn-tinymce_content-text,var(--now-form-field--color,var(--now-color_text--primary,var(--now-color--neutral-18,22,27,28)))));">Thank you,</span></div>
-<div style="line-height: 4px; margin-top: 24px; margin-bottom: 9px; font-size: 12pt;">
-<p>ITR Operations Team</p>
-</div>]]></message_html>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+</tr>
+</tbody>
+</table>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<p style="font-family: Helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 16px;">Please contact to&nbsp; ${request_owner.name} for Further Details. .</p>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+<p style="font-family: Helvetica, sans-serif; font-size: 16px; font-weight: normal; margin: 0; margin-bottom: 16px;">Thanks and Regards. <br />TTC Team</p>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</td>
+</tr>
+<!-- END MAIN CONTENT AREA --></tbody>
+</table>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <!-- END CENTERED WHITE CONTAINER --></div>
+&nbsp; &nbsp; &nbsp; &nbsp;</td>
+<td style="font-family: Helvetica, sans-serif; font-size: 16px; vertical-align: top; width: 11.3109%;" valign="top">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>Request Submitted</name>
@@ -87,7 +188,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7eedfed47088a1014300592e36d4311</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Request Submitted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
@@ -95,7 +196,7 @@
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name>sysevent_email_action_e7eedfed47088a1014300592e36d4311</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-30 13:06:28</sys_updated_on>
+        <sys_updated_on>2024-01-31 10:17:17</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

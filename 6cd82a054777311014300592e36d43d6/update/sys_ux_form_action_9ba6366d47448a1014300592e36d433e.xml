@@ -19,7 +19,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2024-01-30 09:36:42</sys_updated_on>
         <table>x_1025229_topup_0_request_details</table>
-        <ui_action display_value="Re Submit">99b43e6d47448a1014300592e36d4362</ui_action>
+        <ui_action display_value="ReSubmit">99b43e6d47448a1014300592e36d4362</ui_action>
     </sys_ux_form_action>
     <sys_translated_text action="delete_multiple" query="documentkey=9ba6366d47448a1014300592e36d433e"/>
 </record_update>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="DELETE">
+        <active>true</active>
+        <category display_value="Request Details">525e8bb54748ca1014300592e36d43c5</category>
+        <columns>number,status,sys_created_on,sys_created_by</columns>
+        <condition table="x_1025229_topup_0_request_details">sys_created_by=javascript: gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript: gs.getUserName()"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <configuration display_value="Topup Travel Card_menu_config">da5e8bb54748ca1014300592e36d43c2</configuration>
+        <group_by_column/>
+        <groups/>
+        <hide_cell_filter>false</hide_cell_filter>
+        <hide_checkbox_hover>true</hide_checkbox_hover>
+        <hide_column_filtering>false</hide_column_filtering>
+        <hide_column_grouping>false</hide_column_grouping>
+        <hide_column_resizing>false</hide_column_resizing>
+        <hide_column_sorting>false</hide_column_sorting>
+        <hide_drag_and_drop>true</hide_drag_and_drop>
+        <hide_empty_state_image>false</hide_empty_state_image>
+        <hide_first_page>false</hide_first_page>
+        <hide_header>false</hide_header>
+        <hide_highlight_content>false</hide_highlight_content>
+        <hide_highlighted_values>false</hide_highlighted_values>
+        <hide_inline_editing>false</hide_inline_editing>
+        <hide_last_page>false</hide_last_page>
+        <hide_last_refreshed_text>false</hide_last_refreshed_text>
+        <hide_links>false</hide_links>
+        <hide_list_actions>true</hide_list_actions>
+        <hide_menu_button>true</hide_menu_button>
+        <hide_next_page>false</hide_next_page>
+        <hide_option_to_save_as>false</hide_option_to_save_as>
+        <hide_pages>false</hide_pages>
+        <hide_pagination>false</hide_pagination>
+        <hide_panel_advanced>false</hide_panel_advanced>
+        <hide_panel_button>true</hide_panel_button>
+        <hide_panel_condition_delete>false</hide_panel_condition_delete>
+        <hide_panel_footer>false</hide_panel_footer>
+        <hide_panel_restore>false</hide_panel_restore>
+        <hide_personalization>false</hide_personalization>
+        <hide_previous_page>false</hide_previous_page>
+        <hide_quick_edit>false</hide_quick_edit>
+        <hide_range>false</hide_range>
+        <hide_record_count_badge>false</hide_record_count_badge>
+        <hide_reference_links>false</hide_reference_links>
+        <hide_refresh_button>true</hide_refresh_button>
+        <hide_row_count>false</hide_row_count>
+        <hide_row_selector>false</hide_row_selector>
+        <hide_rows_per_page_selector>false</hide_rows_per_page_selector>
+        <hide_select_all>false</hide_select_all>
+        <hide_sharing_button>true</hide_sharing_button>
+        <hide_title>false</hide_title>
+        <highlight_content_color/>
+        <highlight_content_pattern/>
+        <list_attributes/>
+        <max_characters>4000</max_characters>
+        <order>100</order>
+        <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 07:16:31</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ceef5b794788ca1014300592e36d4314</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>My Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>sys_ux_list_ceef5b794788ca1014300592e36d4314</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 08:15:57</sys_updated_on>
+        <table>x_1025229_topup_0_request_details</table>
+        <title>My Requests</title>
+        <view/>
+        <word_wrap>false</word_wrap>
+    </sys_ux_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>sys_ux_list_ceef5b794788ca1014300592e36d4314</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list"><sys_ux_list action="INSERT_OR_UPDATE"><active>true</active><category display_value="Request Details">525e8bb54748ca1014300592e36d43c5</category><columns>number,status,sys_created_on,sys_created_by</columns><condition table="x_1025229_topup_0_request_details">sys_created_by=javascript: gs.getUserName()^EQ<item endquery="false" field="sys_created_by" goto="false" newquery="false" operator="=" or="false" value="javascript: gs.getUserName()"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><configuration display_value="Topup Travel Card_menu_config">da5e8bb54748ca1014300592e36d43c2</configuration><group_by_column/><groups/><hide_cell_filter>false</hide_cell_filter><hide_checkbox_hover>true</hide_checkbox_hover><hide_column_filtering>false</hide_column_filtering><hide_column_grouping>false</hide_column_grouping><hide_column_resizing>false</hide_column_resizing><hide_column_sorting>false</hide_column_sorting><hide_drag_and_drop>true</hide_drag_and_drop><hide_empty_state_image>false</hide_empty_state_image><hide_first_page>false</hide_first_page><hide_header>false</hide_header><hide_highlight_content>false</hide_highlight_content><hide_highlighted_values>false</hide_highlighted_values><hide_inline_editing>false</hide_inline_editing><hide_last_page>false</hide_last_page><hide_last_refreshed_text>false</hide_last_refreshed_text><hide_links>false</hide_links><hide_list_actions>true</hide_list_actions><hide_menu_button>true</hide_menu_button><hide_next_page>false</hide_next_page><hide_option_to_save_as>false</hide_option_to_save_as><hide_pages>false</hide_pages><hide_pagination>false</hide_pagination><hide_panel_advanced>false</hide_panel_advanced><hide_panel_button>true</hide_panel_button><hide_panel_condition_delete>false</hide_panel_condition_delete><hide_panel_footer>false</hide_panel_footer><hide_panel_restore>false</hide_panel_restore><hide_personalization>false</hide_personalization><hide_previous_page>false</hide_previous_page><hide_quick_edit>false</hide_quick_edit><hide_range>false</hide_range><hide_record_count_badge>false</hide_record_count_badge><hide_reference_links>false</hide_reference_links><hide_refresh_button>true</hide_refresh_button><hide_row_count>false</hide_row_count><hide_row_selector>false</hide_row_selector><hide_rows_per_page_selector>false</hide_rows_per_page_selector><hide_select_all>false</hide_select_all><hide_sharing_button>true</hide_sharing_button><hide_title>false</hide_title><highlight_content_color/><highlight_content_pattern/><list_attributes/><max_characters>4000</max_characters><order>100</order><override_word_wrap_user_pref>false</override_word_wrap_user_pref><roles/><sys_class_name>sys_ux_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 07:16:31</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ceef5b794788ca1014300592e36d4314</sys_id><sys_mod_count>3</sys_mod_count><sys_name>My Requests</sys_name><sys_overrides/><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>sys_ux_list_ceef5b794788ca1014300592e36d4314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 08:15:57</sys_updated_on><table>x_1025229_topup_0_request_details</table><title>My Requests</title><view/><word_wrap>false</word_wrap></sys_ux_list></record_update>]]></payload>
+        <payload_hash>-110270683</payload_hash>
+        <record_name>My Requests</record_name>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 08:15:57</sys_created_on>
+        <sys_id>06cda37d47c8ca1014300592e36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5e96cae20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 08:15:57</sys_updated_on>
+        <type>UX List</type>
+        <update_guid>8acda37d4fc8ca10bf7a5d0de91a9d6f</update_guid>
+        <update_guid_history>8acda37d4fc8ca10bf7a5d0de91a9d6f:-110270683,0d43a7fdaa88ca1038e5830da59eb55e:1074627238,98f2ebbdfe88ca10fd773b1b7c0b91a6:2099324566,ef2067f97b88ca106ead58aded1a2c7f:180909157</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 09:45:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_list">sys_ux_list</sys_db_object>
+        <sys_id>0f02dd5705104484821238c7fc5e3061</sys_id>
+        <sys_metadata>ceef5b794788ca1014300592e36d4314</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Requests</sys_name>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>sys_ux_list_ceef5b794788ca1014300592e36d4314</sys_update_name>
+        <sys_update_version display_value="sys_ux_list_ceef5b794788ca1014300592e36d4314">06cda37d47c8ca1014300592e36d4370</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 09:45:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

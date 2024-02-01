@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="DELETE">
+        <canvas display_value="">82689cc681ccca10afe3cdaae96a569f</canvas>
+        <component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component>
+        <component_props>{"src":"https://t4.ftcdn.net/jpg/05/69/60/23/240_F_569602376_Zareu9IpE4yXir7872FATvU9w2uc4FTI.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 12:36:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7659e8ca47000e1014300592e36d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_update_name>par_dashboard_widget_7659e8ca47000e1014300592e36d4399</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 12:36:13</sys_updated_on>
+        <visualization/>
+        <w>27</w>
+        <widget_props/>
+        <x>20</x>
+        <y>0</y>
+    </par_dashboard_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</application>
+        <file_path/>
+        <instance_id>9e30697edb3e4050387021c4059619e6</instance_id>
+        <instance_name>dev100078</instance_name>
+        <name>par_dashboard_widget_7659e8ca47000e1014300592e36d4399</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget"><par_dashboard_widget action="INSERT_OR_UPDATE"><canvas display_value="">82689cc681ccca10afe3cdaae96a569f</canvas><component display_value="Image">15fe506403f8a98575b6df59008ea8f1</component><component_props>{"src":"https://t4.ftcdn.net/jpg/05/69/60/23/240_F_569602376_Zareu9IpE4yXir7872FATvU9w2uc4FTI.jpg","sources":"[]","fit":"fill","position":"center center","alt":"","noDebounce":""}</component_props><h>3</h><name/><stored_component/><sys_class_name>par_dashboard_widget</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-01-31 12:36:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7659e8ca47000e1014300592e36d4399</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package><sys_policy/><sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope><sys_update_name>par_dashboard_widget_7659e8ca47000e1014300592e36d4399</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-01-31 12:36:13</sys_updated_on><visualization/><w>27</w><widget_props/><x>20</x><y>0</y></par_dashboard_widget></record_update>]]></payload>
+        <payload_hash>-1942100984</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>6a83cf19473b711014300592e36d43ad</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 12:36:13</sys_created_on>
+        <sys_id>b259e8ca47000e1014300592e36d439b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18d5f8514c60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 12:36:13</sys_updated_on>
+        <type>PAR Dashboard Widget</type>
+        <update_guid>f659e8cabf000e102a1e754716bf029a</update_guid>
+        <update_guid_history>f659e8cabf000e102a1e754716bf029a:-1942100984</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">1cc96c0e47000e1014300592e36d43dc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 12:37:58</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_widget">par_dashboard_widget</sys_db_object>
+        <sys_id>05ffbaf62ef741cf843f1c056fdd6d21</sys_id>
+        <sys_metadata>7659e8ca47000e1014300592e36d4399</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
+        <sys_scope_delete display_value="">038d5f4885d74fd88a59d050caa1cc10</sys_scope_delete>
+        <sys_update_name>par_dashboard_widget_7659e8ca47000e1014300592e36d4399</sys_update_name>
+        <sys_update_version display_value="par_dashboard_widget_7659e8ca47000e1014300592e36d4399">b259e8ca47000e1014300592e36d439b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 12:37:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -11,7 +11,7 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>This flow will create a new request history record when the request details record is created or updated</description>
         <internal_name>create_request_history_record</internal_name>
-        <label_cache>[{"name":"Created or Updated_1.current.sys_updated_by","label":"Trigger - Record Created or Updated➛Request Details Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_1025229_topup_0_request_details","column_name":"sys_updated_by"},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"string","base_type":"string","parent_table_name":"x_1025229_topup_0_request_details","column_name":"status"},{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger - Record Created or Updated➛Request Details Record","reference":"x_1025229_topup_0_request_details","reference_display":"Request Details","type":"reference","base_type":"reference","attributes":{}},{"name":"Created or Updated_1.current.status","label":"Trigger - Record Created or Updated➛Request Details Record➛Status","reference":"","reference_display":"Status","type":"string","base_type":"string","parent_table_name":"x_1025229_topup_0_request_details","column_name":"status","choices":[{"label":"-- None --","used":false,"rawLabel":"-- None --","selected":false,"missing":false,"image":"","reference":false,"value":""},{"used":false,"label":"Submitted","rawLabel":"Submitted","selected":false,"missing":false,"image":"","reference":false,"value":"Submitted","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Approved by TDM","rawLabel":"Approved by TDM","selected":false,"missing":false,"image":"","reference":false,"value":"Approved by TDM","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Rejected by TDM","rawLabel":"Rejected by TDM","selected":false,"missing":false,"image":"","reference":false,"value":"Rejected by TDM","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Approved by HR","rawLabel":"Approved by HR","selected":false,"missing":false,"image":"","reference":false,"value":"Approved by HR","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Rejected by HR","rawLabel":"Rejected by HR","selected":false,"missing":false,"image":"","reference":false,"value":"Rejected by HR","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Completed","rawLabel":"Completed","selected":false,"missing":false,"image":"","reference":false,"value":"Completed","parameters":{"name":"x_1025229_topup_0_request_details"}},{"used":false,"label":"Send Back","rawLabel":"Send Back","selected":false,"missing":false,"image":"","reference":false,"value":"Send Back","parameters":{"name":"x_1025229_topup_0_request_details"}}]},{"name":"Created or Updated_1.current.sys_updated_by","label":"Trigger - Record Created or Updated➛Request Details Record➛Updated by","reference":"","reference_display":"Updated by","type":"string","base_type":"string","parent_table_name":"x_1025229_topup_0_request_details","column_name":"sys_updated_by"}]</label_cache>
         <master_snapshot>234eaced4773b11014300592e36d435e</master_snapshot>
         <name>Create Request History Record</name>
         <natlang/>
@@ -23,14 +23,14 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 04:54:51</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>98893a9d47f7711014300592e36d4374</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Create Request History Record</sys_name>
         <sys_overrides/>
         <sys_package display_value="Topup Travel Card" source="x_1025229_topup_0">6cd82a054777311014300592e36d43d6</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name>sys_hub_flow_98893a9d47f7711014300592e36d4374</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 13:25:12</sys_updated_on>
+        <sys_updated_on>2024-01-31 10:49:14</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=98893a9d47f7711014300592e36d4374"/>
@@ -93,16 +93,30 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 05:03:13</sys_created_on>
         <sys_id>2a6b7e11473b711014300592e36d437f</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 13:25:12</sys_updated_on>
+        <sys_updated_on>2024-01-31 10:49:14</sys_updated_on>
         <trigger_definition display_value="Created or Updated">a45d9180c32222002841b63b12d3aea7</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
         <trigger_type>record_create_or_update</trigger_type>
     </sys_hub_trigger_instance>
     <sys_variable_value action="delete_multiple" query="document_key=2a6b7e11473b711014300592e36d437f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>2a6b7e11473b711014300592e36d437f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-31 10:49:14</sys_created_on>
+        <sys_id>2bd0d8c6478cca1014300592e36d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 10:49:14</sys_updated_on>
+        <value>unique_changes</value>
+        <variable display_value="Run Trigger">2b9def50c31132002841b63b12d3ae5b</variable>
+    </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_trigger_instance</document>
         <document_key>2a6b7e11473b711014300592e36d437f</document_key>
@@ -151,7 +165,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,labelCacheCleanUpExecuted=true,uiType=document_id,uiTypeLabel=Document ID</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -210,14 +224,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 05:03:13</sys_created_on>
         <sys_id>2a6b7e11473b711014300592e36d4363</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 13:25:12</sys_updated_on>
+        <sys_updated_on>2024-01-31 10:49:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -235,7 +249,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -294,14 +308,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 05:03:13</sys_created_on>
         <sys_id>a26b7e11473b711014300592e36d436e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-17 13:25:12</sys_updated_on>
+        <sys_updated_on>2024-01-31 10:49:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -417,10 +431,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-01-17 05:03:13</sys_created_on>
         <sys_id>be6b7e11473b711014300592e36d4385</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_scope display_value="Topup Travel Card">6cd82a054777311014300592e36d43d6</sys_scope>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2024-01-17 13:48:08</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-31 10:49:14</sys_updated_on>
         <ui_id>dd308fc0-9c73-467a-a247-1f37771f6e9a</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=be6b7e11473b711014300592e36d4385"/>
